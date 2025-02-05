@@ -64,6 +64,7 @@ export type RenderProps = {
   style: CSSProperties
   getLineProps: (input: LineInputProps) => LineOutputProps
   getTokenProps: (input: TokenInputProps) => TokenOutputProps
+  ref: React.Ref<HTMLDivElement>
 }
 export type PrismThemeEntry = {
   color?: string
